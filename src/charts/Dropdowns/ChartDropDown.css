@@ -1,0 +1,81 @@
+.chart-dropbtn {
+  background-color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.chart-dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 7;
+  background-color: white;
+}
+
+.chart-dropdown-show {
+  display: flex !important;
+  flex-direction: column;
+  z-index: 4;
+}
+
+.chart-dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.chart-option {
+  padding: 5px 7px 0;
+  height: 40px;
+  transform: translate(0);
+  color: #4a4a4a;
+  user-select: none;
+}
+.chart-option svg {
+  fill: #7c7c7c;
+}
+.chart-option .title {
+  width: 120px;
+  vertical-align: top;
+  line-height: 25px;
+  padding-left: 5px;
+  font-size: 14px !important;
+  color: #4a4a4a;
+}
+.chart-option:hover {
+  cursor: pointer;
+  background: #f4f7f9;
+}
+
+.dropdown-list {
+  position: absolute;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  padding: 0;
+  width: 195px;
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+  right: 2px;
+  top: 32px;
+}
+.dropdown-list-show {
+  display: block;
+}
+.drop-icon {
+  display: flex;
+  height: 30px;
+  margin-right: 2px;
+  flex-direction: row;
+  width: 60px;
+}
+.selected-chart {
+  position: relative;
+  width: 41px;
+  height: 100%;
+  border: 1px solid;
+  border-color: #dadde0;
+  background: #f2f3f5;
+  align-items: center;
+  display: flex;
+  fill: rgb(0, 255, 200);
+  align-items: center;
+  justify-content: space-evenly;
+}

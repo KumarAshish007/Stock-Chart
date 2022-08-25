@@ -1,0 +1,30 @@
+.main-navigation__title {
+  width: 200px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.brand-top {
+  color: rgb(241, 181, 14) !important;
+}
+.brand-botton {
+  color: white;
+} 
+.mb-2 a{
+  color: #6c757d !important;
+}
+.py{
+  padding-top: 100px;
+}
+.footer-title{
+  font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    color: var(--color2);
+}
+#footer{
+  display: flex;
+  justify-content: space-around;
+}

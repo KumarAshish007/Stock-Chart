@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+a{
+  text-decoration: none !important;
+}  
+html{
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  position: relative;
+  background-color: transparent;
+  line-height: 1.42857143;
+  color: #333; 
+  width: 100%;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+}
+.term-of-use {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.term-of-use h1,
+.term-of-use h3,
+.term-of-use h2 {
+  font-size: medium;
+  font-weight: bold;
+}
+main {
+  margin-top: 60px;
+}
+
+.css-1nrlq1o-MuiFormControl-root {
+  width: 255px !important;
+}
+
+.css-13sljp9 {
+
+  width: 250px !important;
+}

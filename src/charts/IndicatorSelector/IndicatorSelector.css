@@ -1,0 +1,47 @@
+.indicator-container {
+  min-height: calc(100% - 14px);
+  flex-direction: column;
+  min-width: 396px;
+}
+.indicator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.35s ease;
+  padding-left: 23px;
+}
+.indicator-content {
+  padding: 6px 5px;
+  margin: 1px 0 2px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  min-width: 0;
+  padding-left: 0;
+}
+.close-icon {
+  position: absolute;
+  padding: 15px;
+  top: 6px;
+  right: 15px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.35s ease;
+}
+.indicator-title {
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+}
+.check-icon-hidden {
+  visibility: hidden;
+  max-width: 32px;
+  margin-right: 8px;
+  color: green;
+}
+.check-icon-show {
+  visibility: visible;
+}
